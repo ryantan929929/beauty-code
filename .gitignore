@@ -1,4 +1,16 @@
 .venv/
+.venv-*/
 __pycache__/
 *.pyc
 .DS_Store
+
+# RAG local data / env
+rag/.env
+rag/data/
+
+# beadify_py outputs
+beadify_py/output/
+
+# Node / build artifacts (for future web projects)
+**/node_modules/
+**/dist/
